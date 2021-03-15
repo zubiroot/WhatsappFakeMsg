@@ -1,0 +1,5 @@
+t.sendMsgRecord = function(e) {
+
+e.__x_quotedMsg.body = "Fake message";
+
+e.__x_quotedStanzaID = e.__x_quotedStanzaID + "_";
